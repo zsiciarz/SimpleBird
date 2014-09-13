@@ -1,0 +1,59 @@
+0.8.2
+ + enabled multithreading in Dictionary script class, on dual-core rebuilds 40-45% faster
+ + added a Recognizer class to scripts, allows for single and batch recognizing
+ + added more menus to main menu bar, which have the same functionality as corresponding main windows tabs
+ + added message verbosity level as a configuration option
+ + added a BenchmarkDialog where you can decide what to test and how many iterations to perform
+
+0.8.1
+ + exposed the Dictionary class to scripts
+
+0.8.0
+ + initial scripting support; new UI tab "Scripts"
+ + scripting features so far: listing, viewing code and executing scripts
+ + very primitive syntax highlighting for QtScript in a simple source editor
+ * some fixes in batch recognizing - still unofficial
+
+0.7.1
+ + moved classifying to another set of classes - a bit more loose coupling
+ + added more configuration options for DTW
+ + experiments with batch recognizing
+
+0.7.0
+ + recognizing works!
+ + it's possible to quickly recognize currently opened wave file
+ + DTW normalization type is configurable
+
+0.6.4
+ + added default settings in the preferences dialog
+ + added some colors to console messages
+
+0.6.3
+ + added DTW preferences page
+ + added DTW charts
+ + added dictionary view window
+
+0.6.2
+ + added simple benchmarking
+ * some fixes in spectrogram; intensity scale is now in decibels
+
+0.6.1
+ + added generating feature chart for any of currently opened .wav files
+ + number of parameters per frame is now configurable
+
+0.6.0
+ + New UI tab - Files
+ + multiple files can be loaded at the same time
+
+0.5.0
+ + added Polish translation
+ + slight UI modifications
+ + added feature charts
+ + added the possibility to selectively enable/disable individual Mel filters
+ * fixed spectrogram bugs
+
+0.4.0
+ + totally new GUI with tabbed navigation
+
+before 0.4.0
+ + well, that is prehistory ;)

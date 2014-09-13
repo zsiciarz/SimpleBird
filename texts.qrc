@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/texts" >
+        <file>CHANGELOG.txt</file>
+        <file>aquila/CHANGELOG.txt</file>
+    </qresource>
+</RCC>
